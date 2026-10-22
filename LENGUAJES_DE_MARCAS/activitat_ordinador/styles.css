@@ -1,0 +1,43 @@
+body {
+    background-color: aquamarine;
+}
+#titulo {
+    background-color: green;
+    box-sizing: border-box;
+    text-align: center;
+    font-style: italic;
+    color: aliceblue;
+    padding: 20px;
+    margin: 0;
+}
+#indice {
+    background-color: mediumspringgreen;
+    text-align: left;
+    padding: 10px;
+    margin: 0;
+}
+#title {
+    background-color: grey;
+    border: 5px solid orange;
+    text-align: center;
+}
+#parraf {
+    border: 5px solid crimson;
+}
+#img {
+    border: 5px solid purple;
+    display: block;
+    margin: 0 auto;
+    width: 300px;
+    height: auto;
+
+}
+#carac {
+    text-align: left;
+    border: 5px solid blue;
+}
+#parr {
+    font-display: block;
+    background-color: chartreuse;
+    border: 5px solid yellow;
+}
