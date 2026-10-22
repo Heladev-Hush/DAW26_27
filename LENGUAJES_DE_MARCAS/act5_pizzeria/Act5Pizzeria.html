@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pedido de pizza</title>
+</head>
+
+<body>
+    
+    <h2>Pedido de pizza</h2>
+
+    <form>
+        <!-- Encuadramiento de pizza -->
+         <fieldset>
+            <legend>La pizza</legend>
+
+            <p>Ingredientes</p>
+
+            <input type="checkbox" id="queso" name="ingredientes" value="queso">
+            <label for="queso">Queso</label><br>
+
+            <input type="checkbox" id="peperonni" name="ingredientes" value="peperonni">
+            <label for="peperonni">Peperonni</label><br>
+
+            <input type="checkbox" id="jamon" name="ingredientes" value="jamon">
+            <label for="jamon">Jamon</label>
+
+            <p>Tamaño</p>
+
+            <input type="radio" id="pequena" name="tamano" value="pequena">
+            <label for="pequena">Pequeña</label><br>
+
+            <input type="radio" id="mediana" name="tamano" value="mediana">
+            <label for="mediana">Mediana</label><br>
+
+            <input type="radio" id="grande" name="tamano" value="grande">
+            <label for="grande">Grande</label>
+         </fieldset>
+        
+        
+         <!-- Datos entrega -->
+         <fieldset>
+            <legend>Datos de entrega</legend>
+
+            <label for="nombre">Nombre</label>
+            <input type="text" id="name" name="nombre"><br>
+            
+            <label for="direccion">Dirección</label>
+            <input type="text" id="direccion" name="direccion"><br>
+
+            <label for="telefono">Teléfono</label>
+            <input type="tel" id="telefono" name="telefono"><br>
+
+            <label for="instrucciones">Instrucciones especiales</label><br>
+            <textarea id="instrucciones" name="instrucciones" 
+            rows="15" cols="40"></textarea>
+         </fieldset>
+          
+         <!-- Método de pago -->
+        <fieldset>
+            <legend>Método de pago</legend>
+
+            <select id="pago" name="pago">
+                <option value="efectivo">Efectivo</option>
+                <option value="tarjeta">Tarjeta</option>
+            </select>
+
+        </fieldset>
+
+        <input type="submit" value="Ok">
+
+    </form>
+</body>
+</html>

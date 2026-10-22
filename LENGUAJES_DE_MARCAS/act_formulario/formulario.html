@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FORMULARIO</title>
+</head>
+<body>
+    <h1>FORMULARIO CON TODOS LOS TIPOS DE INPUT</h1>
+    <ul><form>
+        <li><label for="name">Nombre: </label>
+            <input type="text" id="name"></li>
+        <li><label for="passwd">Contraseña: </label>  
+            <input type="password" id="passwd"></li>
+        <li><label for="age">Edad:</label> 
+            <input type="number" id="age"></li>
+        <li><label for="email">Email:</label> 
+            <input type="email" id="email"></li>
+        <li><label for="tel">Telefono:</label> 
+            <input type="tel" id="tel"></li>
+        <li><label for="web">Sitio web:</label>
+            <input type="url" id="web"></li>
+        <li><label for="date">Fecha:</label> 
+            <input type="date" id="date"></li>
+        <li><label for="time">Hora:</label> 
+            <input type="time"></li>
+        <li><label for="color">Color favorito:</label>
+            <input type="color" id="color"> </li>
+        <li><label for="week">Semana y año:</label>
+            <input type="week" id="week"></li>
+            <li><label for="satisfaccion">Nivel de satisfacción (1-10):</label>
+            <input type="range" id="satisfaccion" name="satisfaccion" min="1" max="10"></li>
+        <li><label for="fechaHora">Fecha y Hora:</label>
+            <input type="datetime-local" id="fechaHora" name="fechaHora"></li>
+        <li><label for="month">Mes y año:</label> 
+            <input type="month" id="month"></li>
+        <li><label for="semana">Semana y Año:</label>
+            <input type="week" id="semana" name="semana"></li>
+        <li><label for="checkbox">Desea recibir actualizaciones? </label> 
+            <input type="checkbox" id="checkbox"></li>
+        <li><p>Genero:</p>
+            <input type="radio" id="masculino" name="genero" value="masculino">
+            <label for="masculino">Masculino</label>
+            <br>
+            <input type="radio" id="femenino" name="genero" value="femenino">
+            <label for="femenino">Femenino</label>
+            <br>
+            <input type="radio" id="otro" name="genero" value="otro">
+            <label for="otro">Otro Genero</label></li>
+        <li><label for="archivo">Subir Archivo:</label>
+            <input type="file" id="archivo" name="archivo"></li>
+        <li><input type="submit" value="Enviar"> 
+            <input type="reset" value="Restablecer"></li>
+    </form></ul>        
+</body>
+</html>

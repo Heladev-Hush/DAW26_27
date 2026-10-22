@@ -1,0 +1,76 @@
+body {
+    background-color: paleturquoise;
+}
+h1 {
+    text-align: center;
+    display: block;
+    border: 5px solid salmon;
+    background-color: blanchedalmond;
+}
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px auto;
+    gap: 10px;
+    border: 5px solid black;
+}
+#img_index {
+    display: block;
+    margin: 0 auto;
+    width: 500px;
+    height: auto;
+    border: 5px solid blue;
+    
+}
+ul {
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+    list-style: none;
+    padding: 0;
+}
+.index {
+    background-color: #666;
+    color: white;
+    padding: 8px;
+    margin: 2px;
+    font-size: 12px;
+    font-weight: bold;
+}
+a {
+    margin-right: 10px;
+    display: block; 
+    width: fit-content;
+    margin-right: 15px;
+    padding: 8px;
+    background-color: #666;
+    color: white;
+    text-decoration: none;
+}
+table {
+    margin: auto;
+    border-collapse: collapse;
+    background-color: beige;
+} 
+table, th, td {
+    border: 1px solid black;
+}
+th, td {
+    padding: 10px;
+}
+img {
+    display: block;
+    margin: 0 auto;
+    width: 500px;
+    height: auto;
+    border: 1px solid black;
+}
+.receta {
+    text-align: center;
+}
+.ol_receta {
+    border: 5px solid black;
+    font-weight: bold;
+    background-color: beige;
+}
