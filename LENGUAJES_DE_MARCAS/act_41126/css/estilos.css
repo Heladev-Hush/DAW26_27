@@ -1,0 +1,155 @@
+/* CONFIGURACIÓN GENERAL */
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #F1F0FF;
+    font-family: Arial, sans-serif;
+    width: 90%;
+    margin: auto;
+    color: black;
+}
+
+h1 {
+    text-align: center;
+    background-color: #C3C3E5;
+}
+
+img {
+    max-width: 100%;
+}
+p {
+    text-indent: 40px;
+}
+
+
+/* CABECERA */
+
+#header {
+    background-color: #C3C3E5;
+    text-align: center;
+    border-bottom: 5px solid black;
+}
+
+#header h1 {
+    margin: 0;
+    font-size: 25px;
+}
+
+/* MENÚ */
+
+#menu {
+    text-align: center;
+}
+
+#menu ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+#menu li {
+    display: inline-block;
+    border-left: 5px solid red;
+    padding: 5px;
+}
+
+#menu a {
+    color: #443266;
+    text-decoration: none;
+}
+
+#menu li a:hover {
+    color: red;
+    text-decoration: underline;
+}
+
+/* CONTENIDO */
+
+#content {
+    background-color: #F1F0FF;
+    overflow: auto;
+}
+
+
+/* IMAGEN */
+
+#image {
+    float: right;
+    margin-top: 5px;
+    margin-right: 60px;
+    width: 38%;
+    border: 2px solid black;
+}
+
+#image img {
+    display: block;
+    width: 100%;
+}
+
+
+/* TEXTO */
+
+#text {
+    width: 100%;
+    clear: both;
+}
+
+#text p {
+    width: 90%;
+    padding: 10px;
+    margin: 10px auto;
+    text-indent: 40px;
+    border: 3px dashed #443266;
+    box-shadow: 3px 3px 5px gray;
+    background-color: #C3C3E5;
+}
+
+
+/* PRIMER PÁRRAFO */
+
+#text p:first-of-type {
+    border-radius: 30px 30px 0 0;
+
+    background-color: #C3C3E5;
+}
+
+
+/* SEGUNDO PÁRRAFO */
+
+#text p:nth-of-type(2) {
+    background-color: #C3C3E5;
+    background-image: none;
+}
+
+
+/* TERCER PÁRRAFO */
+
+#text p:last-of-type {
+    background-color: #C3C3E5;
+    background-image: none;
+    border-radius: 0 0 30px 30px;
+}
+/* PIE DE PÁGINA */
+
+#footer {
+    background-color: #443266;
+    color: #F1F0FF;
+    text-align: center;
+    border-top: 5px solid #8C489F;
+    padding: 2px;
+    font-size: 8px;
+    line-height: 10px;
+}
+
+#footer a {
+    color: #F1F0FF;
+    text-decoration: none;
+}
+
+#footer a:hover {
+    color: #C3C3E5;
+    text-decoration: underline;
+}
