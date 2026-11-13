@@ -1,0 +1,32 @@
+#titulo
+{
+    color: blue;
+    font-size: xx-large;
+}
+#tabla
+{
+    border: 2px solid black;
+    border-collapse: collapse;
+    border-style: dashed;
+    text-align: center;
+    vertical-align: middle;
+}
+#tabla th,
+#tabla td 
+{
+    border: 1px dotted black;
+    padding: 15px;
+}
+#tabla th 
+{
+    background-color: #d9eaf7;
+    font-weight: bold;
+}
+#tabla th:first-child 
+{
+    background-color: #b8d8ed;
+}
+#tabla td 
+{
+    background-color: #f2f2f2;
+}
