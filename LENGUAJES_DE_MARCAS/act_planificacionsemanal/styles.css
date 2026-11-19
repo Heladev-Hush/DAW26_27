@@ -158,25 +158,34 @@ td, th {
     text-align: left;
 }
 
+/* CONTEXTO DE LA SITUACIÓN DE APRENDIZAJE */
 
-/* SITUACIÓN DE APRENDIZAJE */
+#situacion {
+    width: 100%;
+    table-layout: fixed;
+    border-collapse: collapse;
+}
 
 #situacion th {
     background-color: #ffc000;
     text-align: center;
+    height: 15px;
 }
 
 #situacion td {
-    background-color: #e9eddf;
+    height: 14px;
     text-align: center;
     font-weight: bold;
-    height: 10px;
+    padding: 2px;
 }
 
 #situacion i {
     font-weight: normal;
 }
 
+.tipo {
+    background-color: #FFE699;
+}
 
 /* ACTIVIDADES DE APRENDIZAJE */
 
