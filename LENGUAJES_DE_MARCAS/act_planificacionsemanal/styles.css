@@ -1,0 +1,222 @@
+/* CONFIGURACIÓN GENERAL */
+
+body {
+    background-color: #f1f1f1;
+    font-family: Arial, sans-serif;
+}
+
+main {
+    width: 800px;
+    margin: 20px auto;
+    padding: 15px;
+    background-color: #e9eddf;
+}
+
+h1 {
+    text-align: center;
+    font-size: 16px;
+    margin: 0 0 8px 0;
+}
+
+
+/* ESTILO GENERAL DE LAS TABLAS */
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    table-layout: fixed;
+    font-size: 10px;
+}
+
+td, th {
+    border: 1px solid #777;
+    padding: 2px 4px;
+}
+
+
+/* COMPETENCIA DIGITAL DOCENTE */
+
+#competencia th {
+    background-color: #4bafc4;
+    text-align: center;
+}
+
+#competencia td:nth-child(1),
+#competencia td:nth-child(3) {
+    background-color: #4bafc4;
+}
+
+#competencia td:nth-child(1) {
+    width: 15%;
+}
+
+#competencia td:nth-child(2) {
+    width: 32%;
+}
+
+#competencia td:nth-child(3) {
+    width: 23%;
+}
+
+#competencia td:nth-child(4) {
+    width: 30%;
+}
+
+#competencia td {
+    height: 15px;
+}
+
+
+/* METODOLOGÍA */
+
+#metodologia {
+    margin-top: 0;
+}
+
+#metodologia th {
+    background-color: #ffc000;
+    text-align: center;
+}
+
+#metodologia td {
+    background-color: #e9eddf;
+    text-align: center;
+    height: 10px;
+}
+
+#metodologia td:first-child {
+    text-align: left;
+    font-weight: bold;
+}
+
+
+/* RECURSOS MATERIALES */
+
+#recursos {
+    margin-top: 10px;
+}
+
+#recursos th {
+    background-color: #ffc000;
+    text-align: center;
+}
+
+#recursos td {
+    height: 17px;
+}
+
+#recursos td:nth-child(1),
+#recursos td:nth-child(4),
+#recursos td:nth-child(6) {
+    font-weight: bold;
+}
+
+#recursos .subtitulo {
+    background-color: #ffc000;
+    text-align: center;
+    font-weight: bold;
+}
+
+
+/* CONTEXTO DE APRENDIZAJE */
+
+#contexto th {
+    text-align: center;
+    height: 15px;
+}
+
+#contexto th:nth-child(1) {
+    background-color: #ff35b5;
+}
+
+#contexto th:nth-child(2) {
+    background-color: #a99abb;
+}
+
+#contexto th:nth-child(3) {
+    background-color: #ff0000;
+}
+
+#contexto th:nth-child(4) {
+    background-color: #92d050;
+}
+
+#contexto th:nth-child(5) {
+    background-color: #ffff00;
+}
+
+#contexto th:nth-child(6) {
+    background-color: #ed7d31;
+}
+
+#contexto td {
+    height: 30px;
+}
+
+#contexto th.amarillo {
+    background-color: #ffc000;
+    text-align: left;
+}
+
+
+/* SITUACIÓN DE APRENDIZAJE */
+
+#situacion th {
+    background-color: #ffc000;
+    text-align: center;
+}
+
+#situacion td {
+    background-color: #e9eddf;
+    text-align: center;
+    font-weight: bold;
+    height: 10px;
+}
+
+#situacion i {
+    font-weight: normal;
+}
+
+
+/* ACTIVIDADES DE APRENDIZAJE */
+
+#actividades {
+    margin-top: 0;
+}
+
+#actividades th {
+    background-color: #4bafc4;
+    text-align: center;
+}
+
+#actividades th:first-child {
+    width: 4%;
+}
+
+#actividades th:nth-child(2) {
+    width: 10%;
+}
+
+#actividades th:nth-child(3) {
+    width: 47%;
+}
+
+#actividades th:nth-child(4) {
+    width: 9%;
+}
+
+#actividades th:nth-child(5) {
+    width: 11%;
+}
+
+#actividades th:nth-child(6) {
+    width: 19%;
+}
+
+#actividades td {
+    height: 20px;
+}
+
+#actividades i {
+    font-weight: normal;
+}
